@@ -6,41 +6,37 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
-
-    <LinearLayout
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+    <CheckBox
+        android:id="@+id/checkBox"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="20dp"
         android:layout_weight="1"
-        android:orientation="vertical">
-
-        <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_margin="20dp"
-            android:layout_weight="0.5"
-            android:gravity="center"
-            android:text="Guardar automáticament"
-            android:textSize="9pt" />
-        <SeekBar
-            android:id="@+id/seekBar"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="3" />
-        <RatingBar
-            android:id="@+id/ratingBar"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-        <ToggleButton
-            android:id="@+id/toggleButton"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="5"
-            android:text="ToggleButton" />
-
-    </LinearLayout>
-
+        android:gravity="center"
+        android:text="Guardar automáticament"
+        android:textSize="9pt" />
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3" />
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:text="ToggleButton" />
+</LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
